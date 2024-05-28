@@ -56,7 +56,7 @@ const Hero = () => {
             Full Stack Developer
             
           </motion.span> */}
-          <div>
+          <div className='flex gap-7 mb-5 md:gap-0'>
             <motion.button
               variants={container(1)}
               initial="hidden"
@@ -65,8 +65,16 @@ const Hero = () => {
               className='bg-transparent hover:bg-blue-500 text-white font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded
                                 my-2 max-w-xl tracking-tighter'><a href={RESUME} target='_blank'>Download Resume</a></motion.button>
 
-          </div>
+
+            <motion.button
+              variants={container(1)}
+              initial="hidden"
+              animate="visible"
+              className='bg-blue-600 hover:bg-transparent text-white font-semibold hover:text-white  py-2 px-4 hover:border hover:border-blue-500  md:ml-8 rounded md:static my-2 max-w-xl tracking-tighter'>Contact Me</motion.button>
           
+          </div>
+
+            
           
         </div>
 
