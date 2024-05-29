@@ -4,7 +4,7 @@ import { FaNodeJs } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
 import { SiPython } from "react-icons/si";
-import { animate, motion } from 'framer-motion'
+import { motion } from 'framer-motion'
 
 const iconVariants = (duration) => ({
     initial: { y: -10},
@@ -21,7 +21,7 @@ const iconVariants = (duration) => ({
 
 const Technologies = () => {
   return (
-    <div id='technologies' className='border-b border-neutral-800 pb-24'>
+    <div id='technologies' className='border-b border-neutral-800 pb-24 pt-20'>
         <motion.h1 
             whileInView={{ opacity: 1, y: 0}}
             initial={{ opacity: 0, y: -100}}

@@ -1,5 +1,4 @@
 import React from 'react'
-// import aboutImg from '../assets/sk_1_removebg.png'
 import aboutImg from "../assets/santha kumar.jpg"
 import { ABOUT_TEXT } from '../constants';
 import { motion } from 'framer-motion';
@@ -9,7 +8,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 const About = () => {
   return (
-    <div id="about" className='border-b border-neutral-900 pb-4'>
+    <div id="about" className='border-b border-neutral-900 pb-4 pt-20'>
       <motion.h1 
         whileInView={{ opacity: 1, y: 0}}
         initial={{ opacity: 0, y: -100}}
