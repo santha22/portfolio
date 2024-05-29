@@ -7,7 +7,7 @@ import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `Never Mind🎯`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. I have worked with a variety of technologies, including React, Node.js, ExpressJs, MongoDB and Bootstrap. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. I have worked with a variety of technologies, including React, Node.js, ExpressJs, MongoDB and Bootstrap. Solved 400+ DSA questions on GFG. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies.`;
 
 export const RESUME = `https://drive.google.com/file/d/1WflvOckjX1f2rh5NwFrO6MiJrQnO7aDm/view?usp=drive_link`
 
